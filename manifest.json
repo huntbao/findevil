@@ -1,0 +1,28 @@
+{
+    "background": {
+        "scripts": [ "js/background.js" ]
+    },
+    "browser_action": {
+        "default_icon": "images/icons/19x19.png",
+        "default_title": "__MSG_BrowserActionTitle__"
+    },
+    "content_scripts": [
+        {
+            "js": [ "js/findevil.js"],
+            "matches": [ "http://*/*", "https://*/*" ]
+        }
+    ],
+    "default_locale": "en",
+    "description": "__MSG_ExtensionDescription__",
+    "icons": {
+        "128": "images/icons/128x128.png",
+        "16": "images/icons/16x16.png",
+        "19": "images/icons/19x19.png",
+        "32": "images/icons/32x32.png",
+        "48": "images/icons/48x48.png"
+    },
+    "manifest_version": 2,
+    "name": "__MSG_ExtensionName__",
+    "permissions": [ "tabs", "contextMenus", "http://*/*", "https://*/*" ],
+    "version": "1.0"
+}

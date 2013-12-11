@@ -1,0 +1,14 @@
+{
+    "ExtensionDescription": {
+        "description": "extension description",
+        "message": "Find Evil! Find the global varible and duplicated id!"
+    },
+    "ExtensionName": {
+        "description": "extension name",
+        "message": "FindEvil"
+    },
+    "BrowserActionTitle": {
+        "description": "extension name",
+        "message": "FindEvil"
+    }
+}
